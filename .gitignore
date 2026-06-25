@@ -67,3 +67,11 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+Answer/
+mapreduce/
+testdata/
+CMakeLists.txt
+*.gr
+Notice.md
+*.txt
