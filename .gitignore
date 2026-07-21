@@ -73,5 +73,6 @@ mapreduce/
 testdata/
 CMakeLists.txt
 *.gr
-plan.md
+plan
+.vscode
 *.txt
