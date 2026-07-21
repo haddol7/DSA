@@ -73,5 +73,5 @@ mapreduce/
 testdata/
 CMakeLists.txt
 *.gr
-Notice.md
+plan.md
 *.txt
