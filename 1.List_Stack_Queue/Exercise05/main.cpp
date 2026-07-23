@@ -88,6 +88,14 @@ public:
     {
         for (auto it = std::rbegin(ilist); it != std::rend(ilist); it++) push_front(*it);
     }
+
+    ~singly_ll() { while (head) pop_front(); }
+    singly_ll& operator=(singly_ll other)
+    {
+        std::swap(head, other.head);
+        return *this;
+        // 최적화(기존 head의 자원을 delete하지 않는 방식)는 안되지만.. 우아한(?) 트릭
+    }
 };
 
 int main()
